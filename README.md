@@ -4,49 +4,48 @@
 
 README
 
--> DropBoxQualtricsIntegration_v1.0.1.y
+-> DropBoxQualtricsIntegration_v1.0.1.y : 
 This file is responsible for embedding images into surveys and publishing Qualtrics surveys
 
--> example.qsf
+-> example.qsf : 
 Sample qsf file (Qualtrics survey file)
 
--> RekognitionClassification.py
+-> RekognitionClassification.py : 
 Image recongnition file
 
--> TextAnalysis.py
+-> TextAnalysis.py : 
 To analyze if text present in image or not
 
--> LabelDetection.py
+-> LabelDetection.py : 
 To detect labels and types
 
--> FaceAnalysis.py
+-> FaceAnalysis.py : 
 Face detectiona and features
 
-->MTurk.py
+->MTurk.py : 
 Responsible for creating and publishing Amazon MTurk HIT
 
-->HITLayout.XML
+->HITLayout.XML : 
 Layout page of HIT which defines the look and structure of the HIT
 
--> TurkListAssignment.py
+-> TurkListAssignment.py : 
 To retrieve all the assignments associated with a HIT ID
 
--> GetResponse.py
+-> GetResponse.py : 
 Get all the responses associated to a Qualtrics survey
 
--> HITLayoutSanbox.xml
+-> HITLayoutSanbox.xml : 
 HIT layout for Sanbox publication
 
--> HITLayoutProduction.xml
+-> HITLayoutProduction.xml :
 HIT layout for Producation publication
 
--> ApproveAssignment.py
+-> ApproveAssignment.py : 
 To approve and pay for the eligible turkers
 
--> ChangeStatus.py
+-> ChangeStatus.py : 
 To change the status of a HIT
 
-
--> Webscraping.py
+-> Webscraping.py : 
 To extract images from the links
 
